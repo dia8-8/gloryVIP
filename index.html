@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory Life RP - VIP Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #0e0e0e;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+            color: #bb00ff;
+        }
+        .vip-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .card {
+            background: #1a1a1a;
+            border: 1px solid #bb00ff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+            position: relative;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 1.2em;
+            color: #bbb;
+        }
+        .sold-out {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: red;
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.9em;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .discord-btn {
+            background: #7289da;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.2em;
+            margin: 30px 0;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .instructions {
+            text-align: center;
+            margin: 20px;
+            font-size: 1em;
+            color: #aaa;
+        }
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            font-size: 0.8em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Glory Life RP Logo">
+        <h1>Glory Life RP - VIP Shop</h1>
+    </header>
+
+    <div class="vip-list">
+        <div class="card"><!--<span class="sold-out">SOLD OUT</span>--><img src="images/cardealer1.jpg" alt="Car Dealer"><h2>Car Dealer (1 Model)</h2><p>$150</p></div>
+        <div class="card"><img src="images/cardealer2.jpg" alt="Car Dealer 2 Models"><h2>Car Dealer (2 Models)</h2><p>$200</p></div>
+        <div class="card"><img src="images/villa.jpg" alt="Villa"><h2>Villa</h2><p>$75</p></div>
+        <div class="card"><img src="images/bike.jpg" alt="Bike"><h2>Bike</h2><p>$25</p></div>
+        <div class="card"><img src="images/car.jpg" alt="Car"><h2>Car</h2><p>$30</p></div>
+        <div class="card"><img src="images/gang.jpg" alt="Gang"><h2>Gang </h2><p>(8 Cars, Zone, ...)</p><p>$70</p></div>
+        <div class="card"><img src="images/supermarket.jpg" alt="Supermarket"><h2>Supermarket</h2><p>$50</p></div>
+        <div class="card"><img src="images/parking.jpg" alt="Parking"><h2>Parking</h2><p>$125</p></div>
+        <div class="card"><img src="images/mechanic.jpg" alt="Mechanic"><h2>Mechanic</h2><p>$225</p></div>
+        <div class="card"><img src="images/restaurant.jpg" alt="Restaurant"><h2>Restaurant</h2><p>$70</p></div>
+        <div class="card"><img src="images/laundry.jpg" alt="Money Laundry"><h2>Money Laundry</h2><p>$50</p></div>
+        <div class="card"><img src="images/weaponsfactory.jpg" alt="Weapons Factory"><h2>Weapons Factory</h2><p>$150</p></div>
+        <div class="card"><img src="images/casino.jpg" alt="Casino"><h2>Casino</h2><p>$350</p></div>
+        <div class="card"><img src="images/carwash.jpg" alt="Car Wash"><h2>Car Wash</h2><p>$100</p></div>
+        <div class="card"><img src="images/gasstation.jpg" alt="Gas Station"><h2>Gas Station</h2><p>$50</p></div>
+        <div class="card"><img src="images/secondchar.jpg" alt="Second Character"><h2>Second Character</h2><p>$25</p></div>
+        <div class="card"><img src="images/motodealer.jpg" alt="Moto Dealer"><h2>Moto Dealer</h2><p>$150</p></div>
+    </div>
+
+    <div class="instructions">
+        To purchase VIP, please join our Discord server and open a ticket.
+    </div>
+
+    <a href="https://discord.gg/7w7bvb8PM3" target="_blank" class="discord-btn">Join Our Discord</a>
+
+    <footer>
+        &copy; 2025 Glory Life RP. All rights reserved.
+    </footer>
+</body>
+</html>
